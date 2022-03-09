@@ -16,11 +16,12 @@ count = 0
 array = [500, 100, 50, 10]
 
 for coin in array:
-    print(n)
+    #print(n)
     count += n // coin
-    print(coin)
+    #print(coin)
     n %= coin # n = n%coin
 
+print(count)
 
 
 
